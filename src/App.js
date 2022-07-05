@@ -1,9 +1,17 @@
 import './App.css';
-import Navbar from './components/NavBar/Navbar';
+import React from 'react';
+import Navbar from './components/NavBar/Navbar'
+import Home from './components/Body/Home/Home';
+
+
 
 function App() {
   return (
-    <Navbar/>
+    <>
+      <Navbar/>
+      <Home/>
+    </>
+    
   );
 }
 
