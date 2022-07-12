@@ -1,16 +1,23 @@
 import './App.css';
 import React from 'react';
-import Navbar from './components/NavBar/Navbar'
-import Home from './components/Body/Home/Home';
-
+import Header from './components/Header/Header';
+import UserForm from './components/UserForm/UserForm';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route, 
+  Link
+} from 'react-router-dom'
 
 
 function App() {
   return (
-    <>
-      <Navbar/>
-      <Home/>
-    </>
+    <Router>
+      <Header/>
+      <Switch>
+        <Route exact path='/contact/'><UserForm/></Route>
+      </Switch>
+    </Router>
     
   );
 }
