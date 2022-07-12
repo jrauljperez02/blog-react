@@ -6,8 +6,10 @@ import {
   BrowserRouter as Router,
   Switch,
   Route, 
-  Link
+
 } from 'react-router-dom'
+import AboutMe from './components/Content/AboutMe/AboutMe';
+import Skills from './components/Content/Skills/Skills';
 
 
 function App() {
@@ -15,6 +17,10 @@ function App() {
     <Router>
       <Header/>
       <Switch>
+        <Route exact path='/'>
+            <AboutMe/>
+            <Skills/>
+        </Route>
         <Route exact path='/contact/'><UserForm/></Route>
       </Switch>
     </Router>

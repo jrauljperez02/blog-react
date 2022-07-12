@@ -23,13 +23,12 @@ const Header = () => {
 
   return (
     <HeaderContent  ref={ref} className={ isSticky ? 'stick-header' : ''}>
-        <HeaderWrapper/>
+        <HeaderWrapper props="header-menu"/>
     </HeaderContent>
   )
 }
 
 export default Header
-
 const HeaderContent = styled.header`
     display: block;
     margin: 0 auto 20px;

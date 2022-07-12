@@ -1,15 +1,14 @@
 import React from 'react'
 import Logo from './Logo'
 import Menu from './Menu'
-import Search from './Search'
+
 import styled from 'styled-components'
 
-const HeaderWrapper = () => {
+const HeaderWrapper = ({props}) => {
   return (
-    <HeaderWrapperElement>
+    <HeaderWrapperElement className={props}>
         <Menu/>
         <Logo/>
-        <Search/>
     </HeaderWrapperElement>
   )
 }
