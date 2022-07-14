@@ -4,34 +4,46 @@ import {
     Link,
   } from "react-router-dom";
 
-// import Bar from './Bar';
+import Bar from './Bar';
 import './skills.css'
 
 
 const Skills = () => {
 
-//     const data_bar = [
-//     {
-//         name: 'HTML/CSS/JavaScript',
-//         level :'90%'
-//     },
-//     {
-//         name: 'REACTJS',
-//         level: '90%'
-//     },
-//     {
-//         name: 'Python - Django/ Django Rest Framework',
-//         level: '90%'
-//     },
-//     {
-//         name: 'Docker',
-//         level: '90%'
-//     },
-//     {
-//         name: 'English',
-//         level: 'C1'
-//     }
-// ]
+    const data_bar = [
+    {
+        name: 'HTML/CSS/JavaScript',
+        level :'95%',
+        styles: 'html'
+    },
+    {
+        name: 'REACTJS',
+        level: '90%',
+        styles: 'reactjs'
+    },
+    {
+        name: 'Python - Django/ Django Rest Framework',
+        level: '90%',
+        styles: 'django'
+
+    },
+    {
+      name: 'Machine Learning Python',
+      level: '30%',
+      styles: 'machinelearning'
+
+  },
+    {
+        name: 'Docker',
+        level: '90%',
+        styles: 'docker'
+    },
+    {
+        name: 'English',
+        level: 'C1',
+        styles: 'english'
+    }
+]
 
   return (
     <section className='skills'>
@@ -53,45 +65,13 @@ const Skills = () => {
                 </div>
             </Router>
        
-        <div className="column col-right reveal">
-            <div className="bar">
-            <div className="bar">
-            <div className="info">
-              <span>HTML/CSS/JAVASCRIPT</span>
-              <span>95%</span>
-            </div>
-            <div className="line html"></div>
+          <div className="column col-right reveal">
+            {data_bar.map((item,id)=> {
+              return(
+                <Bar key = {id} props = {item} />
+              )
+            })}
           </div>
-          <div className="bar">
-            <div className="info">
-              <span>REACTJS</span>
-              <span>95%</span>
-            </div>
-            <div className="line reactjs"></div>
-          </div>
-          <div className="bar">
-            <div className="info">
-              <span>PYTHON DJANGO/DJANGO REST FRAMEWORK</span>
-              <span>80%</span>
-            </div>
-            <div className="line django"></div>
-          </div>
-          <div className="bar">
-            <div className="info">
-              <span>MACHINE LEARNING PYTHON</span>
-              <span>30%</span>
-            </div>
-            <div className="line machinelearning"></div>
-          </div>
-          <div className="bar">
-            <div className="info">
-              <span>DOCKER</span>
-              <span>90%</span>
-            </div>
-            <div className="line docker"></div>
-          </div>
-            </div>
-        </div>
         </div>
     </section>
   )

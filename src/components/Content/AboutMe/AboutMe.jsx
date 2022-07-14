@@ -14,12 +14,12 @@ const AboutMe = () => {
                 </div>
             </div>
             <div className='col-right reveal'>
-                <div class="animated-text">
+                <div className="animated-text">
                     <h3>Python Backend Engineer</h3>
                     <h3>ReactJS Developer.</h3>
                     <h3>Automotive Engineer.</h3>
                 </div>
-                <p class="paragraph-text">Jesús Raúl Jiménez Pérez es un estudiante de 
+                <p className="paragraph-text">Jesús Raúl Jiménez Pérez es un estudiante de 
                     la Escuela Superior de Ingenieria Mecánica y Electrica, ESIME Zacatenco 
                     del Instituto Politenico Nacional, en la carrera de Ingenieria en 
                     Sistemas Automotrices. Se desempeña fuertemente en el ámbito de la programación 
@@ -31,7 +31,7 @@ const AboutMe = () => {
                     guitarra, pasar tiempo con su familia o salir a caminar. Tiene interés en continuar 
                     estudiando su ingenieria en el IPN, y de seguir aprendiendo nuevas tecnologias como 
                     lo puede ser ReactJS o NodeJS.</p>
-                <p class="languaje">Nivel de inglés: C1.</p>
+                <p className="languaje">Nivel de inglés: C1.</p>
 
             </div>
         </div>

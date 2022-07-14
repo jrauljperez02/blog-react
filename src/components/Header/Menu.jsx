@@ -92,6 +92,7 @@ const MainMenu = styled.div`
     #nav-icon {
         width: 60px;
         height: 45px;
+        
         position: relative;
         margin: 0px 0 0 -15px;
         transform: rotate(0deg) scale(0.5);
@@ -204,7 +205,9 @@ const HamburguerMenuContainer = styled.div`
                 color: #000;
                 font-size: 30px;
                 &:hover{
-                    color: #ADADAD;
+                    color: #33c7b3;
+                    font-weight: 500;
+                    transition: 0.25s;
                 }
             }
         }

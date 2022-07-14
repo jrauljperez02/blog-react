@@ -8,7 +8,7 @@ const Bar = ({props}) => {
             <span>{props.name}</span>
             <span>{props.level}</span>
         </div>
-        <div class= {`line ${props.name}`}></div>
+        <div className= {`line ${props.styles}`}></div>
     </div>
   )
 }

@@ -30,6 +30,7 @@ const Header = () => {
 
 export default Header
 const HeaderContent = styled.header`
+
     display: block;
     margin: 0 auto 20px;
     position: relative;
@@ -38,6 +39,7 @@ const HeaderContent = styled.header`
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
     }
     &.stick-header{
+        
         z-index: 999;
         position: relative;
         .header-menu{
@@ -68,6 +70,7 @@ const HeaderContent = styled.header`
             }
         }
         & + .shareBarElement{
+            
             & + main{
                 margin-top: 140px;
             } 

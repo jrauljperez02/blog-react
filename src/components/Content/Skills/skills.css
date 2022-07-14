@@ -1,8 +1,9 @@
 
   .skills{
-    background: #000016;
+    background: #01031b;
     margin-top: 80px;
-    padding-top: 50px
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
   
   .skills .content{
@@ -74,7 +75,7 @@
   }
   
   .skills .content .col-right .bar .django:before{
-    width: 80%;
+    width: 90%;
     background: #e3a324;
   }
   
@@ -86,6 +87,10 @@
   .skills .content .col-right .bar .docker:before{
     width: 90%;
     background: #6d7eb8;
+  }
+  .skills .content .col-right .bar .english:before{
+    width: 95%;
+    background: #deeb2d;
   }
 
  
