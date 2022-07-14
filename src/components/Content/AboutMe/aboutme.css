@@ -116,7 +116,8 @@ section{
 
 @media(max-width:1040px){
     section{
-        padding: 80px 20px;
+        padding: 8px 20px;
+        padding-bottom: 30px;
     }
     .section-title{
         font-size: 1.8em;
@@ -130,6 +131,7 @@ section{
     }
     .about .content .col-right{
        margin:  0 auto;
+       width: 100%;
       }
       .about .content .col-left{
         margin:  0 auto;
