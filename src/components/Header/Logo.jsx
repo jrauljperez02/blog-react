@@ -5,14 +5,14 @@ import {
   Link,
 } from "react-router-dom";
 
-
+import logo from './logo.json'
 
 const Logo = () => {
   return (
     <Router>
     <LogoContent>
         <Link to = ''>
-          <img src= {'https://icon-library.com/images/dev-icon/dev-icon-6.jpg'} alt = '' />
+          <img src= {logo['url']} alt = '' />
         </Link>
     </LogoContent>
     </Router>

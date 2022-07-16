@@ -5,30 +5,9 @@ import {
     Link,
   } from "react-router-dom";
 
+import data  from './menu.json'
+
 const Menu = () => {
-
-
-    const data = [{
-        id: 1,
-        title: 'Home',
-        link: '/'},{
-        id: 2,
-        title : 'About me',
-        link: '/about'},{
-        id: 3,
-        title : 'Skills',
-        link: '/skills'},{
-        id: 4,
-        title : 'Contact me',
-        link: '/contact'},{
-        id: 5,
-        title : 'Projects',
-        link : '/projects'},
-        {
-        id: 6,
-        title : 'CV',
-        link : '/cv'}
-    ]
 
     const [navbarOpen, setNavbarOpen] = useState(false)
     const ref = useRef(null)

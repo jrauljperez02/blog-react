@@ -1,7 +1,6 @@
-import './App.css';
 import React,{Suspense,lazy} from 'react';
 import Header from './components/Header/Header';
-import UserForm from './components/UserForm/UserForm';
+import ContactPage from './components/ContactPage/ContactPage';
 import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import Galery from './components/Content/Galery/Galery';
 import Footer from './components/Footer/Footer';
@@ -21,7 +20,7 @@ function App() {
             <Galery/>
           </Suspense>
         </Route>
-        <Route exact path='/contact/'><UserForm/></Route>
+        <Route exact path='/contact/'><ContactPage/></Route>
       </Switch>
 
       <Footer/>

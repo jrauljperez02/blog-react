@@ -1,0 +1,20 @@
+{
+    "title": "About me",
+    "img-profile": "https://jrauljperez.netlify.app/images/img1.jpg",
+    "description": [
+        {   
+            "id": 0,
+            "skill": "Python Backend Engineer"
+        },
+        {
+            "id": 1,
+            "skill": "ReactJS Developer"
+        },
+        {
+            "id": 2,
+            "skill": "Automotive Enginner"
+        }
+    ],
+    "content": "Jesús Raúl Jiménez Pérez es un estudiante de la Escuela Superior de Ingenieria Mecánica y Electrica, ESIME Zacatenco del Instituto Politenico Nacional, en la carrera de Ingenieria en Sistemas Automotrices. Se desempeña fuertemente en el ámbito de la programación usando tecnologias como Pyhon, HTML/CSS/JAVASCRIPT, C/C++ y llevar acabo un control de versiones con Git. En este blog se presentan algunos proyectos que se han desarrollado utilizando estas tecnologias. Jesus Raul es una persona que le gusta trabajar en equipo, aprender y enseñar a los demas los conocimientos que él tiene y busca siempre seguir aprendiendo, tiene hobbies como lo es ir a correr o tocar la guitarra, pasar tiempo con su familia o salir a caminar. Tiene interés en continuar estudiando su ingenieria en el IPN, y de seguir aprendiendo nuevas tecnologias como lo puede ser ReactJS o NodeJS",
+    "english-level": "English Level C1"
+}
