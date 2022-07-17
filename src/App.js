@@ -1,32 +1,23 @@
-import React,{Suspense,lazy} from 'react';
+import React from 'react';
 import Header from './components/Header/Header';
 import ContactPage from './components/ContactPage/ContactPage';
-import {BrowserRouter as Router,Switch,Route } from 'react-router-dom'
 import Galery from './components/Content/Galery/Galery';
 import Footer from './components/Footer/Footer';
+import AboutMe from './components/Content/AboutMe/AboutMe';
+import Skills from './components/Content/Skills/Skills';
 
-const AboutMe = lazy(() => import('./components/Content/AboutMe/AboutMe'))
-const Skills = lazy(() => import('./components/Content/Skills/Skills'))
-
+import Blog from './components/Content/Blog/Blog';
 function App() {
   return (
-    <Router>
+    <>
       <Header/>
-      <Switch>
-        <Route exact path='/'>
-          <AboutMe/>
-          <Suspense fallback = {<h1>Loading</h1>}>
-            <Skills/>
-            <Galery/>
-          </Suspense>
-        </Route>
-        <Route exact path='/contact/'><ContactPage/></Route>
-      </Switch>
-
+      <AboutMe/>
+      <Skills/>
+      <Galery/>
+      <Blog/>
+      <ContactPage/>
       <Footer/>
-    </Router>
-    
+    </>
   );
 }
-
 export default App;

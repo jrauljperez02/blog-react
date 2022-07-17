@@ -24,6 +24,30 @@
             "icon" : "fas fa-globe",
             "description" : "Website",
             "content-description" : "jrauljperez.netlify.app"
+        },
+        {
+            "id" : 0,
+            "icon" : "fa-brands fa-github",
+            "description" : "Address",
+            "content-description" : "Gustavo A. Madero. Ciudad de México."
+        },
+        {
+            "id" : 1,
+            "icon" : "fas fa-phone",
+            "description" : "Cellphone",
+            "content-description" : "+52 246 103 4307"
+        },
+        {
+            "id" : 2,
+            "icon" : "fas fa-envelope",
+            "description" : "Email",
+            "content-description" : "jraul.jperez71@gmail.com"
+        },
+        {
+            "id" : 3,
+            "icon" : "fas fa-globe",
+            "description" : "Website",
+            "content-description" : "jrauljperez.netlify.app"
         }
 
     ]

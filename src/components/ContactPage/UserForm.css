@@ -3,11 +3,13 @@
     text-align: center;
 }
 .contact .content{
+    max-width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
-    margin-top: 20px;
+
 }
 .contact .content .row{
     display: flex;
