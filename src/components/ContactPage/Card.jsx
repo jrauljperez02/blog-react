@@ -1,8 +1,10 @@
 import React from 'react'
 
+
 const Card = ({props}) => {
   return (
     <div className="card reveal">
+     
         <div className="contact-icon">
             <i className={props.icon}></i>
         </div>

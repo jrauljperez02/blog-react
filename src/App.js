@@ -7,6 +7,7 @@ import AboutMe from './components/Content/AboutMe/AboutMe';
 import Skills from './components/Content/Skills/Skills';
 
 import Blog from './components/Content/Blog/Blog';
+
 function App() {
   return (
     <>

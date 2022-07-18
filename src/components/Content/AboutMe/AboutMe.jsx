@@ -25,7 +25,11 @@ const AboutMe = () => {
                 </div>
                 <p className="paragraph-text">{data['content']}</p>
                 <p className="languaje">{data['english-level']}</p>
-
+                <div className='about-icon'>
+                    <i class="fab fa-github el"></i>
+                    <i class="fab fa-google el"></i>
+                    <i class="fab fa-twitter el"></i>
+                </div>
             </div>
         </div>
     </section>

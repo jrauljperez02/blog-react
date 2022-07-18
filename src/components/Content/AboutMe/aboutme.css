@@ -2,6 +2,14 @@ section{
     padding: 0 200px;
 
 }
+.about-icon{
+  font-size: 2em;
+  transition: transform 0.5s ease;
+  color: #2a4291;
+}
+.about-icon .el{
+  padding-right: 20px;
+}
 
 .title{
     position: relative;
