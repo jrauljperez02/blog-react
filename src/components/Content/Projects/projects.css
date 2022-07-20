@@ -1,0 +1,21 @@
+
+.projects p{
+    margin-bottom: 30px;
+    line-height: 24px;
+}
+.projects h2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #33c7b3;
+}
+.projects__element{
+    width: 100%;
+    height: 400px;
+
+}
+
+@media(max-width: 1040px) {
+    .projects{
+        margin-top: 40px;
+    }
+}

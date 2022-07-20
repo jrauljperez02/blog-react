@@ -1,6 +1,8 @@
 section{
     padding: 0 200px;
-
+}
+.about{
+  margin-bottom: 70px;
 }
 .about-icon{
   font-size: 2em;

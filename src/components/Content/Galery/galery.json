@@ -3,8 +3,8 @@
     "title": "Handled Technologies",
     "images" : [
         {   "id": 0,
-            "alt": "django",
-            "url" : "https://miro.medium.com/max/1400/1*VJvm1cEIqEwFtQACLoEgkw.png"
+            "alt": "python",
+            "url" : "https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/f5643096750899.5eb54f3381b8f.png"
         },
         {
             "id": 1,
@@ -35,6 +35,11 @@
             "id": 6,
             "alt": "mysql",
             "url" : "https://icons-for-free.com/iconfiles/png/512/development+logo+mysql+icon-1320184807686758112.png"
+        },
+        {
+            "id" : 7,
+            "alt" : "django" ,
+            "url": "https://images.ctfassets.net/23aumh6u8s0i/6ubUHRD1qfolOVHxiBfjZ7/4e704f48dc5b0104d0c380fec1fe9b9e/django"
         }
     ]
 }

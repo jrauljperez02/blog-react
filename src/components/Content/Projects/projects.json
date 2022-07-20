@@ -1,0 +1,42 @@
+{
+    "title" : "Projects Front-end",
+    "projects" : [
+        {
+            "id": 0,
+            "site-url" : "https://r-app-gamma.vercel.app/",
+            "project-name" : "My own cinema",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+        },
+        {
+            "id": 1,
+            "site-url" : "https://tasks-app-khaki.vercel.app/",
+            "project-name" : "Tasks app",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+
+        },
+        {
+            "id": 2,
+            "site-url" : "https://dev.seunonoticias.net/",
+            "project-name" : "WWW,SEUNONOTICIAS.NET",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+        },
+        {
+            "id": 3,
+            "site-url" : "https://daqing-qizhuohe.com/spanish/index.html",
+            "project-name": "Daqing Qizhuohue",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+        },
+        {
+            "id": 4,
+            "site-url" : "https://expenses-15bt1isse-jrauljperez02.vercel.app/",
+            "project-name" : "Expenses app",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+        },
+        {
+            "id": 5,
+            "site-url" : "https://jraulj.netlify.app/",
+            "project-name" : "My own landing page",
+            "description" : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in"
+        }
+    ]
+}

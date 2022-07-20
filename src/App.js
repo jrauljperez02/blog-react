@@ -7,16 +7,18 @@ import AboutMe from './components/Content/AboutMe/AboutMe';
 import Skills from './components/Content/Skills/Skills';
 
 import Blog from './components/Content/Blog/Blog';
+import Projects from './components/Content/Projects/Projects';
 
 function App() {
   return (
     <>
       <Header/>
-      <AboutMe/>
       <Skills/>
+      <AboutMe/>
       <Galery/>
       <Blog/>
       <ContactPage/>
+      <Projects/>
       <Footer/>
     </>
   );
