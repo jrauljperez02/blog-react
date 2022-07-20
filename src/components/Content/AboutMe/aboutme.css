@@ -6,6 +6,7 @@ section{
   font-size: 2em;
   transition: transform 0.5s ease;
   color: #2a4291;
+  padding-top: 20px;
 }
 .about-icon .el{
   padding-right: 20px;
@@ -51,25 +52,23 @@ section{
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin-top: 20px;
 }
 
 .about .content .col-left{
-    position: relative;
-    width: 45%;
+    max-width: 45%;
 }
 .about .content .col-left .img-card{
-    position: relative;
-    width: 100%;
-    min-height: 450px;
+  max-width: 100%;
+  margin: auto;
 }
 
 .about .content .col-left .img-card img{
    top: 0;
    left: 0;
-   width: 100%;
-   height: 100%;
+   width: 80%;
+   height: 80%;
    object-fit: cover;
    border-radius: 100%;
   }
@@ -85,6 +84,8 @@ section{
 .about .content .col-right .paragraph-text{
     font-size: 1em;
     line-height: 24px;
+    margin-top: 30px;
+    
 }
 
 .animated-text{
@@ -149,12 +150,4 @@ section{
         padding-top: 0;
         margin-top: 0;
     }
-
-
-    .about .content .col-left .img-card{
-        min-height: 0;
-       }
-
 }
-
-

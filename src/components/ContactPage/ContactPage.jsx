@@ -14,7 +14,7 @@ const ContactPage = () => {
         <div className="row">
           {data.cards.map((item) => {
             return(
-              <Card props = {item} />
+              <Card key = {item.id} props = {item} />
             )
           })}
         </div>

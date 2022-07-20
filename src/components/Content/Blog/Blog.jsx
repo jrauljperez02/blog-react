@@ -14,7 +14,7 @@ const Blog = () => {
       <div className='content-blog'>
         {cards.posts.map((item) => {
               return(
-                  <CardBlog props = {item}/>
+                  <CardBlog key = {item.id} props = {item}/>
               )
           })}
       </div>

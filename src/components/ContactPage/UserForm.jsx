@@ -1,4 +1,5 @@
 import React,{useState,useEffect} from 'react'
+import axios from 'axios'
 
 const UserForm = () => {
 
@@ -11,7 +12,11 @@ const UserForm = () => {
     const [succesfullySubmit,setSuccesfullySubmit] = useState(false)
 
 
-    const handleSubmit = () => {
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+
+      
         if (!email.includes('@') || !email.includes('.')) {
             setIsValidEmail(false)
         }
@@ -21,8 +26,24 @@ const UserForm = () => {
             setIsValidComent(true)
             setIsValidEmail(true)
             setSuccesfullySubmit(true)
+
+
+            const data = {
+              Name : name,
+              Email : email,
+              Coment: coment
+            }
+            axios.post('https://sheet.best/api/sheets/8e73bd6b-6f98-4a9d-9dc2-dfac46495c8a',data).then((response) => {
+              console.log(response)
+              setName('')
+              setEmail('')
+              setComent('')
+            })
         }
     }
+
+
+
     useEffect(() =>{
         const KeyDwonHandler = event =>{
             if(event.key === 'Enter'){
@@ -39,6 +60,7 @@ const UserForm = () => {
 
     },[name,email,coment])
 
+  
 
 
 

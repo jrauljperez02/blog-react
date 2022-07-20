@@ -12,8 +12,8 @@ const Galery = () => {
         <div className='content'>
           {data.images.map((item) =>{
             return(
-              <div key = {item.id} class="card ">
-                <div class="card-img">
+              <div key = {item.id} className="card ">
+                <div className="card-img">
                   <img src={item.url} alt={item.alt}/>
                 </div>
               </div>
